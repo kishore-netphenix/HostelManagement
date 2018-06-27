@@ -47,7 +47,6 @@ public class CreateHostel extends LoginPage {
 		driver.findElement(By.xpath("//*[@id=\"content\"]/app-hostel-view/app-hostel/div[2]/div[3]/div[2]/table/tbody/tr[4]/td[5]/input")).click();
 		driver.findElement(By.xpath("//*[@id=\"content\"]/app-hostel-view/app-hostel/div[2]/div[3]/div[2]/table/tbody/tr[5]/td[5]/input")).click();
 		driver.findElement(By.xpath("//*[@id=\"content\"]/app-hostel-view/app-hostel/div[2]/div[3]/div[2]/table/tbody/tr[6]/td[5]/input")).click();
-		driver.findElement(By.xpath("//*[@id=\"content\"]/app-hostel-view/app-hostel/div[2]/div[3]/div[2]/table/tbody/tr[7]/td[5]/input")).click();
 		driver.findElement(By.xpath("//button[@title='Pick File']")).click();
 		Thread.sleep(10000);
 		driver.findElement(By.xpath("//button[@title='Upload']")).click();
