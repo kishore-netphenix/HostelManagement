@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38099" started-at="2018-06-27T07:41:30Z" finished-at="2018-06-27T07:42:08Z">
+  <suite name="Default suite" duration-ms="20505" started-at="2018-06-27T11:42:53Z" finished-at="2018-06-27T11:43:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38099" started-at="2018-06-27T07:41:30Z" finished-at="2018-06-27T07:42:08Z">
-      <class name="com.main.classes.AddHostel">
-        <test-method status="PASS" signature="mainTest()[pri:0, instance:com.main.classes.AddHostel@33c7e1bb]" name="mainTest" duration-ms="38061" started-at="2018-06-27T07:41:30Z" finished-at="2018-06-27T07:42:08Z">
+    <test name="Default test" duration-ms="20505" started-at="2018-06-27T11:42:53Z" finished-at="2018-06-27T11:43:14Z">
+      <class name="com.main.classes.BookingRoom">
+        <test-method status="PASS" signature="mainTest()[pri:0, instance:com.main.classes.BookingRoom@33c7e1bb]" name="mainTest" duration-ms="20473" started-at="2018-06-27T11:42:53Z" finished-at="2018-06-27T11:43:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainTest -->
-      </class> <!-- com.main.classes.AddHostel -->
+      </class> <!-- com.main.classes.BookingRoom -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

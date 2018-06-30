@@ -24,7 +24,7 @@ public class Booking extends HostelView {
 		driver.findElement(By.xpath("//*[@id=\"bookingModal\"]/div/div/div[2]/div[2]/div[2]/input")).sendKeys("9787431055");
 		driver.findElement(By.xpath("//*[@id=\"bookingModal\"]/div/div/div[2]/div[3]/div/textarea")).sendKeys("Ooty");
 		driver.findElement(By.xpath("//*[@id=\"bookingModal\"]/div/div/div[2]/div[4]/div/div/label/span[1]")).click();
-		
+		driver.findElement(By.xpath("//button[contains(text(),'Confirm My Booking')]")).click();
 	}
 
 }
