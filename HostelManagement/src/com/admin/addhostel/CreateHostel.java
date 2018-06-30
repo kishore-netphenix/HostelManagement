@@ -17,10 +17,8 @@ public class CreateHostel extends LoginPage {
 
 	@Test
 	public void newHostel() throws InterruptedException {
-//		driver.findElement(By.xpath("//a[@data-hover='ADMIN']")).click();
 		WebDriverWait wait=new WebDriverWait(driver, 500);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(), 'Add')]"))).click();
-//		driver.findElement(By.xpath("//button[contains(text(), 'Add')]")).click();
 		driver.findElement(By.xpath("//input[@name='name']")).sendKeys("Yoga Hostel");
 		driver.findElement(By.name("email")).sendKeys("newhostel@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"content\"]/app-hostel-view/app-hostel/div[2]/div[2]/div[3]/input")).sendKeys("9686567876");

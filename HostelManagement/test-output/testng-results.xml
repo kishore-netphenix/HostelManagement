@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20505" started-at="2018-06-27T11:42:53Z" finished-at="2018-06-27T11:43:14Z">
+  <suite name="Default suite" duration-ms="16342" started-at="2018-06-30T07:36:40Z" finished-at="2018-06-30T07:36:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20505" started-at="2018-06-27T11:42:53Z" finished-at="2018-06-27T11:43:14Z">
-      <class name="com.main.classes.BookingRoom">
-        <test-method status="PASS" signature="mainTest()[pri:0, instance:com.main.classes.BookingRoom@33c7e1bb]" name="mainTest" duration-ms="20473" started-at="2018-06-27T11:42:53Z" finished-at="2018-06-27T11:43:14Z">
+    <test name="Default test" duration-ms="16342" started-at="2018-06-30T07:36:40Z" finished-at="2018-06-30T07:36:56Z">
+      <class name="com.test.signuppage.SignUp">
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.test.signuppage.SignUp@2a742aa2]" name="browser" is-config="true" duration-ms="13827" started-at="2018-06-30T07:36:40Z" finished-at="2018-06-30T07:36:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mainTest -->
-      </class> <!-- com.main.classes.BookingRoom -->
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="newUser()[pri:0, instance:com.test.signuppage.SignUp@2a742aa2]" name="newUser" duration-ms="2413" started-at="2018-06-30T07:36:54Z" finished-at="2018-06-30T07:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUser -->
+      </class> <!-- com.test.signuppage.SignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

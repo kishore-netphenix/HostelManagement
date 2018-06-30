@@ -23,7 +23,7 @@ public class LoginPage {
 	public void launch() {
 		System.setProperty("webdriver.gecko.driver", "/home/qc/Documents/Selenium/geckodriver-v0.20.1-linux64/geckodriver");
 		driver = new FirefoxDriver();
-		driver.navigate().to("http://localhost:4200");
+		driver.navigate().to("http://localhost:4000");
 		String title = driver.getTitle();
 		System.out.println("Page title is -->"+ title);
 		String url = driver.getCurrentUrl();
@@ -37,7 +37,7 @@ public class LoginPage {
 	@Test
 	public void signIn() {
 		driver.findElement(By.xpath("//a[@data-hover='SIGNIN/SIGNUP']")).click();
-		driver.findElement(By.name("user_name")).sendKeys("arul");
+		driver.findElement(By.name("user_name")).sendKeys("sam");
 		driver.findElement(By.name("password")).sendKeys("1234");
 		driver.findElement(By.xpath("//button[contains(text(), 'Login')]")).click();
 		System.out.println("Login Successful");
